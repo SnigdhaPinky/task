@@ -1,0 +1,56 @@
+.container{
+
+  text-align:center;
+  padding-top: 200px;
+
+}
+body{
+  background-image: url("https://th.bing.com/th/id/OIP.KcGzRFAQTTFwXCH9enizawHaFj?pid=ImgDet&rs=1");
+  
+}
+.header{
+  color: brown;
+}
+input{
+
+  width:300px;
+
+  height:50px;
+
+  padding:10px;
+
+  margin:20px;
+
+font-size:18px;
+
+border-radius:5px;
+
+}
+
+button:disabled{
+
+  padding:10px 20px;
+
+  font-size:18px;
+
+}
+
+button:enabled{
+
+  background-color:green;
+
+  color:white;
+
+  border-radius:10px;
+
+  padding:10px 20px;
+
+  font-size:18px;
+
+
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;}
